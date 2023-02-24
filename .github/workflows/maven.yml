@@ -38,9 +38,6 @@ jobs:
         uses: actions/checkout@v3.3.0
       - name: Self-hosted Renovate
         uses: docker://renovate/renovate:34.152-slim
-        with:
-          configurationFile: config/renovate-config.js
-          token: ${{ secrets.GIT_TOKEN }}
         env:
           RENOVATE_REPOSITORIES: amolaherkar/Saample-Repo
           RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }}
