@@ -41,3 +41,6 @@ jobs:
         with:
           configurationFile: config/renovate-config.js
           token: ${{ secrets.GIT_TOKEN }}
+        env:
+          RENOVATE_REPOSITORIES: amolaherkar/Saample-Repo
+          RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }}
