@@ -40,4 +40,4 @@ jobs:
         uses: docker://renovate/renovate:34.152-slim
         env:
           RENOVATE_REPOSITORIES: amolaherkar/Saample-Repo
-          RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }}
+          RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }} 
