@@ -1,1 +1,2 @@
 # SmartBucket-RenovateAction
+test
