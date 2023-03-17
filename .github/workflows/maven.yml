@@ -37,7 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Self-hosted Renovate
-        uses: docker://renovate/renovate:34.152-slim
+        uses: docker://renovate/renovate:35.10-slim
         env:
           RENOVATE_REPOSITORIES: amolaherkar/Saample-Reno
           RENOVATE_TOKEN: ${{ secrets.GIT_TOKEN }} 
